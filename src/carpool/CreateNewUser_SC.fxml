@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="607.0" style="-fx-background-color: turquoise;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="247.0" layoutY="445.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Create new user" textFill="#ebe2e2">
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="12.0" />
+         </font></Button>
+      <PasswordField layoutX="389.0" layoutY="398.0" />
+      <PasswordField layoutX="389.0" layoutY="367.0" />
+      <TextField layoutX="389.0" layoutY="155.0" />
+      <TextField layoutX="389.0" layoutY="303.0" />
+      <TextField layoutX="389.0" layoutY="268.0" />
+      <TextField layoutX="389.0" layoutY="231.0" />
+      <TextField layoutX="389.0" layoutY="192.0" />
+      <TextField layoutX="389.0" layoutY="335.0" />
+      <Text layoutX="233.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME">
+         <font>
+            <Font name="Comic Sans MS Italic" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="93.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create a new user for our car rental app">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter full name: ">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your age: ">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your sex: ">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your address:">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your phone number:">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your new user name:">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your password:">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Re-enter password:">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
