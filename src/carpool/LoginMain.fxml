@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carpool.LoginController">
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Trinity Corporation all rights reserved" />
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </HBox>
+   </bottom>
+   <top>
+      <Pane fx:id="toppane" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="welcomemessage" fontSmoothingType="LCD" layoutX="-208.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Trinity Car Pooling App" wrappingWidth="609.275390625" x="200.0">
+               <font>
+                  <Font name="Georgia Italic" size="36.0" />
+               </font></Text>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Pane>
+   </top>
+   <right>
+      <AnchorPane prefHeight="10.0" prefWidth="10.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <SplitPane fx:id="centerpane" dividerPositions="0.6639676113360324" nodeOrientation="LEFT_TO_RIGHT" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+          <AnchorPane prefHeight="142.0" prefWidth="538.0">
+               <children>
+                  <HBox layoutX="78.0" layoutY="40.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField prefHeight="43.0" prefWidth="270.0" promptText="Type Username here">
+                           <HBox.margin>
+                              <Insets bottom="5.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" />
+                           </padding>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="78.0" layoutY="88.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="117.34375">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField prefHeight="43.0" prefWidth="270.0" promptText="Type password here">
+                           <HBox.margin>
+                              <Insets bottom="5.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" top="5.0" />
+                           </padding>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <Button fx:id="signInBtn" layoutX="233.0" layoutY="136.0" mnemonicParsing="false" onAction="#logInButtonPushed" prefHeight="25.0" prefWidth="94.0" text="Sign in" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </AnchorPane>
+          <AnchorPane>
+               <children>
+                  <Text fx:id="newuser" layoutX="177.0" layoutY="92.0" nodeOrientation="LEFT_TO_RIGHT" smooth="false" stroke="#e8e6cf" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="5.0" text="New User?" textAlignment="CENTER" AnchorPane.bottomAnchor="100.9765625" AnchorPane.leftAnchor="177.0" AnchorPane.rightAnchor="176.25390625" AnchorPane.topAnchor="66.1015625">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Button alignment="CENTER" layoutX="198.0" layoutY="126.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="Click Here" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </center>
+   <left>
+      <AnchorPane prefHeight="10.0" prefWidth="10.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
