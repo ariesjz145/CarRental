@@ -69,11 +69,6 @@
             <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
          </opaqueInsets>
       </VBox>
-      <ImageView fitHeight="225.0" fitWidth="285.0" layoutX="210.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@trinity.jpg" />
-         </image>
-      </ImageView>
       <Text fill="#030303" layoutX="201.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Trinity Car Pool ">
          <font>
             <Font size="24.0" />
@@ -81,5 +76,10 @@
       </Text>
       <Text layoutX="458.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Looking to Drive?" />
       <Button layoutX="457.0" layoutY="337.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="93.0" text="Click here" />
+      <ImageView fitHeight="247.0" fitWidth="442.0" layoutX="146.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Calendar.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>

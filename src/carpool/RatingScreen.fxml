@@ -69,27 +69,29 @@
             <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
          </opaqueInsets>
       </VBox>
-      <Text fill="#030303" layoutX="201.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Settings">
+      <Text fill="#030303" layoutX="287.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating Rider">
          <font>
             <Font size="24.0" />
          </font>
       </Text>
       <Text layoutX="458.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Looking to Drive?" />
       <Button layoutX="457.0" layoutY="337.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="93.0" text="Click here" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="141.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="113.0" fitWidth="130.0" layoutX="333.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Thumbsup.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="192.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username of Previous Rider" />
+      <ImageView fitHeight="85.0" fitWidth="93.0" layoutX="370.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@persom.png" />
          </image>
       </ImageView>
-      <Text layoutX="382.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Name" />
-      <Text layoutX="383.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Driving history" />
-      <Text layoutX="387.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Options" />
-      <Text layoutX="387.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
-      <Text layoutX="387.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
-      <Text layoutX="383.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Password" />
-      <Text layoutX="190.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Photo image" />
-      <Text layoutX="386.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insurance Information" />
-      <Text layoutX="386.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Registration" />
-      <Text layoutX="397.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click to edit or Add" />
+      <ImageView fitHeight="122.0" fitWidth="101.0" layoutX="186.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Thumbsdown.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="192.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please rate your experience with the carpooler" />
    </children>
 </Pane>
